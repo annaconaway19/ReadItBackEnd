@@ -15,24 +15,27 @@ ActiveRecord::Schema.define(version: 2018_12_19_185511) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "book_tables", force: :cascade do |t|
+  create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "author"
     t.string "description"
     t.string "genre"
+    t.string "img_url"
   end
 
-  create_table "reviews_tables", force: :cascade do |t|
-    t.string "details"
-    t.integer "user_id"
-    t.integer "book_id"
-  end
-
-  create_table "user_tables", force: :cascade do |t|
+  create_table "readers", force: :cascade do |t|
     t.string "name"
     t.string "bio"
     t.string "username"
     t.string "password"
+    t.string "img_url"
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.string "details"
+    t.string "date"
+    t.integer "reader_id"
+    t.integer "book_id"
   end
 
 end

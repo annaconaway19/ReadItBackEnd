@@ -1,10 +1,11 @@
-class CreateUserTable < ActiveRecord::Migration[5.2]
+class CreateReaders < ActiveRecord::Migration[5.2]
   def change
-    create_table :user_tables do |t|
+    create_table :readers do |t|
       t.string :name
       t.string :bio
       t.string :username
       t.string :password
+      t.string :img_url
     end
   end
 end
