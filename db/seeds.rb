@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# books = JSON.parse(RestClient.get())
+# books = JSON.parse(RestClient.get('https://reststop.randomhouse.com/resources/titles'))
 
 reader1 = Reader.create(name: "Monica", bio: "Must love dogs, wine, & Harry Potter", username: "mgeller", password: "password1", img_url: "https://image.afcdn.com/story/20140225/monica-gellar-184341_w767h767c1cx345cy200.jpg")
 reader2 = Reader.create(name: "Rachel", bio: "Mostly into romantic comedies but I like a true crime novel every now and then.", username: "rgreen", password: "password12", img_url: "https://s1.r29static.com//bin/entry/608/x,80/1839167/image.jpg")
