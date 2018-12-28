@@ -4,7 +4,7 @@ class CreateReaders < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :bio
       t.string :username
-      t.string :password
+      t.string :password_digest
       t.string :img_url
     end
   end
