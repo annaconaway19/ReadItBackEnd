@@ -1,4 +1,4 @@
-class ReadersController < ApplicationController
+class Api::V1::ReadersController < ApplicationController
 
   def index
     render json: Reader.all
