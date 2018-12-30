@@ -7,12 +7,13 @@ class Api::V1::AuthController < ApplicationController
         message: "correct username and password",
         reader_info: @reader,
         error: false,
+        token: encode({reader_id: @reader.id})
         }, status: :accepted
 
     else
       render json: {
         message: "incorrect!",
-        error: true,
+        error: true
         }, status: :unauthorized
     end
   end
