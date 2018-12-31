@@ -22,15 +22,6 @@ class Api::V1::ReadersController < ApplicationController
    end
 
 
-  def update
-    Reader.find(params[:id]).update(reader_params)
-    render json: Reader.find(params[:id])
-  end
-
-  def destroy
-    render json: Reader.find(params[:id]).destroy
-  end
-
   private
 
   def reader_params

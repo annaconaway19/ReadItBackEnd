@@ -17,9 +17,9 @@ class Api::V1::ReviewsController < ApplicationController
   #   render json: Review.find(params[:id])
   # end
   #
-  # def destroy
-  #   render json: Review.find(params[:id]).destroy
-  # end
+  def destroy
+    render json: Review.find(params[:id]).destroy
+  end
 
   private
 
