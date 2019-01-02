@@ -37,7 +37,7 @@ book19 = Book.create(title: "The Handmaid's Tale", author: "Margaret Atwood", de
 book20 = Book.create(title: "ROOM", author: "Emma Donoghue", description: "Sweet, sad, and terrifying. WOW.", genre: "Fiction", img_url: "http://media.cleveland.com/books_impact/photo/roomjpg-734b126ca7306d60.jpg" )
 book21 = Book.create(title: "The Girl On The Train", author: "Paula Hawkins", description: "The characters are terrible but it's a suspenseful ride", genre: "Thriller", img_url: "https://prodimage.images-bn.com/pimages/9780735219755_p0_v2_s550x406.jpg" )
 book22 = Book.create(title: "The Curious Incident of the Dog in the Night-Time", author: "Mark Haddon", description: "Being different is sometimes the best thing", genre: "Fiction", img_url: "https://images-na.ssl-images-amazon.com/images/I/41fxsXxLq9L._SX322_BO1,204,203,200_.jpg" )
-book23 = Book.create(title: "Atlas Shrugged", author: "Ayn Rand", description: "Are YOU reaching your highest potential?", genre: "Fiction", img_url: "https://images-na.ssl-images-amazon.com/images/I/518GwHMsHcL._SX322_BO1,204,203,200_.jpg" )
+book23 = Book.create(title: "Atlas Shrugged", author: "Ayn Rand", description: "Are YOU reaching your highest potential?", genre: "Fiction", img_url: "https://images.penguinrandomhouse.com/cover/9780525948926" )
 book24 = Book.create(title: "Paradise Lost", author: "John Milton", description: "An epic depiction of good and evil", genre: "Poetry", img_url: "https://images-na.ssl-images-amazon.com/images/I/51ElmFkQ8WL.jpg" )
 
 
