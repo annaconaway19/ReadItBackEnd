@@ -1,5 +1,9 @@
 class Api::V1::ReadersController < ApplicationController
 
+  def index
+    render json: Reader.all
+  end
+
   def profile
      token = request.headers["Authentication"].split(" ")[1]
      payload = decode(token)

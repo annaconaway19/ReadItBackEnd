@@ -26,7 +26,7 @@ book8 = Book.create(title: "The Fellowship of the Ring", author: "J.R. Tolkien",
 book9 = Book.create(title: "Is Everyone Hanging Out Without Me?", author: "Mindy Kaling", description: "Funny, endearing, and so, very Mindy", genre: "Comedy", img_url: "https://images-na.ssl-images-amazon.com/images/I/51ixsUsMYiL._AC_SY400_.jpg" )
 book10 = Book.create(title: "Helter Skelter", author: "Vincent Bugliosi", description: "True crime at its spookiest", genre: "True Crime", img_url: "https://images-na.ssl-images-amazon.com/images/I/41IqzFrvjaL._SX331_BO1,204,203,200_.jpg" )
 book11 = Book.create(title: "Hillbilly Elegy: A Memoir of a Family and Culture ", author: "J.D. Vance", description: "Poverty sucks in middle America", genre: "Memoir", img_url: "https://images-na.ssl-images-amazon.com/images/I/51gufUMfXZL._SX328_BO1,204,203,200_.jpg" )
-book12 = Book.create(title: "Bear Town", author: "Fredrik Backman", description: "Word travels fast in a small town. Be careful with your actions.", genre: "Fiction", img_url: "hhttps://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501160776/beartown-9781501160776_hr.jpg" )
+book12 = Book.create(title: "Bear Town", author: "Fredrik Backman", description: "Word travels fast in a small town. Be careful with your actions.", genre: "Fiction", img_url: "https://images-na.ssl-images-amazon.com/images/I/81PXCnkOrwL.jpg" )
 book13 = Book.create(title: "Girl, Wash Your Face ", author: "Rachel Hollis", description: "Laaaadies - enjoy this dose of empowerment and kick butt this year!", genre: "Self-Help", img_url: "https://images-na.ssl-images-amazon.com/images/I/41IqzFrvjaL._SX331_BO1,204,203,200_.jpg" )
 book14 = Book.create(title: "Yes Please", author: "Amy Poehler", description: "Honestly, who could ever hate Amy Poehler?", genre: "Comedy", img_url: "https://images-na.ssl-images-amazon.com/images/I/51JeCzV8CoL.jpg" )
 book15 = Book.create(title: "Harry Potter & The Chamber of Secrets", author: "J.K. Rowling", description: "Voldemort is still the worst!", genre: "Fantasy", img_url: "https://prodimage.images-bn.com/pimages/9780807281949_p0_v2_s550x406.jpg" )
@@ -35,8 +35,6 @@ book17 = Book.create(title: "Unquenchable: A Tipsy Quest for the World's Best Ba
 book18 = Book.create(title: "The Art of Racing in the Rain", author: "Garth Stein", description: "Dogs are honestly too good for this world", genre: "Fiction", img_url: "https://images-na.ssl-images-amazon.com/images/I/51UdsFpmjtL._SX326_BO1,204,203,200_.jpg" )
 book19 = Book.create(title: "The Handmaid's Tale", author: "Margaret Atwood", description: "End times are coming. Under His eye.", genre: "Fiction", img_url: "https://images-na.ssl-images-amazon.com/images/I/518GwHMsHcL._SX322_BO1,204,203,200_.jpg" )
 book20 = Book.create(title: "ROOM", author: "Emma Donoghue", description: "Sweet, sad, and terrifying. WOW.", genre: "Fiction", img_url: "http://media.cleveland.com/books_impact/photo/roomjpg-734b126ca7306d60.jpg" )
-
-
 
 
 
